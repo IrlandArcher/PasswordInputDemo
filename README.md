@@ -10,6 +10,28 @@
     
     [self.view addSubview:pwd];
     
+    #pragma mark - delegate
+
+    - (BOOL)ShouldResignFirstResponderWithInputPassword:(NSString *)pwd{
+
+        if ([pwd isEqualToString:@"123456"]) {
+
+        return YES;
+
+         }
+    
+         return NO;
+    }
+
+    - (BOOL)ShouldShowErrorMessageWithInputPassword:(NSString *)pwd{
+
+        if ([pwd isEqualToString:@"123456"]) {
+    
+        return NO;
+        }
+        return YES;
+    }
+
 ![image](https://github.com/likangios/PasswordInputDemo/blob/master/PasswordInputDemo/IMG_0119.PNG)
 ![image](https://github.com/likangios/PasswordInputDemo/blob/master/PasswordInputDemo/IMG_0120.PNG)
 
