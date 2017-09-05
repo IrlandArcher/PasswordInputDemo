@@ -10,5 +10,8 @@
     
     [self.view addSubview:pwd];
     
+![image](https://github.com/likangios/PasswordInputDemo/blob/master/PasswordInputDemo/IMG_0119.PNG)
+![image](https://github.com/likangios/PasswordInputDemo/blob/master/PasswordInputDemo/IMG_0120.PNG)
+
 
 
